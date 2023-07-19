@@ -3,7 +3,48 @@
   min-height: 210px !important;
 }
 
-/* 添加测试 css */
-#recent-posts > .recent-post-item > .recent-post-info {
-  padding: 0 100px;
+/* card, page hover 添加颜色 */
+.card-widget {
+  position: relative !important;
+  transition: box-shadow 0.3s ease-in-out !important;
+  /* box-shadow: 0 3px 8px 6px rgba(7, 17, 27, 0.05) !important; */
+  overflow: unset !important;
+}
+
+.card-widget::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.card-widget:hover::before {
+  border-color: #6f42c1 !important;
+}
+
+#page {
+  position: relative;
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0 3px 8px 6px rgba(7, 17, 27, 0.05);
+}
+
+#page::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+#page:hover::before {
+  border-color: #6f42c1;
 }
