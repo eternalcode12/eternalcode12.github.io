@@ -18,6 +18,19 @@
     
     <entry>
       <title>测试</title>
+      <link href="/posts/.html"/>
+      <url>/posts/.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h1>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试</title>
       <link href="/posts/329498239481.html"/>
       <url>/posts/329498239481.html</url>
       
