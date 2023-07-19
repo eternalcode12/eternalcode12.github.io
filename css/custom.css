@@ -49,3 +49,25 @@
 #page:hover::before {
   border-color: #6f42c1;
 }
+
+#post {
+  position: relative;
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0 3px 8px 6px rgba(7, 17, 27, 0.05);
+}
+
+#post::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+#post:hover::before {
+  border-color: #6f42c1;
+}
