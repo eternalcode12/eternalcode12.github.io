@@ -8,7 +8,7 @@
   position: relative !important;
   transition: box-shadow 0.3s ease-in-out !important;
   /* box-shadow: 0 3px 8px 6px rgba(7, 17, 27, 0.05) !important; */
-  overflow: unset !important;
+  overflow: visible !important;
 }
 
 .card-widget::before {
@@ -20,6 +20,7 @@
   bottom: -2px;
   border: 1px solid transparent;
   border-radius: 8px;
+  z-index: -1; /* 添加这行 */
   transition: border-color 0.3s ease-in-out;
 }
 
