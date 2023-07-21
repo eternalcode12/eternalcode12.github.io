@@ -2,6 +2,19 @@
 <search> 
   
   
+    
+    <entry>
+      <title>测试</title>
+      <link href="/posts/.html"/>
+      <url>/posts/.html</url>
+      
+        <content type="html"><![CDATA[<p>内容</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
   
   
 </search>
