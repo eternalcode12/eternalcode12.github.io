@@ -5875,9 +5875,9 @@ blockquote.pullquote.right {
   --hr-border: rgba(255,255,255,0.5);
   --hr-before-color: rgba(255,255,255,0.7);
   --highlight-bg: #171717;
-  --exit-btn-bg: #1f1f1f;
+  --exit-btn-bg: #6f42c1;
   --exit-btn-color: rgba(255,255,255,0.9);
-  --exit-btn-hover: #525252;
+  --exit-btn-hover: #aa8fda;
 }
 .read-mode {
   background: var(--readmode-light-color);
