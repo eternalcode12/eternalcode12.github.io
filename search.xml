@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>测试内容</title>
+      <link href="/posts/130982394.html"/>
+      <url>/posts/130982394.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="这是一篇文章"><a href="#这是一篇文章" class="headerlink" title="这是一篇文章"></a>这是一篇文章</h1><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">interface <span class="title class_">IForm</span> &#123;</span><br><span class="line">    <span class="attr">name</span>: string</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>学习 python 识别人脸</title>
       <link href="/posts/8721937921.html"/>
       <url>/posts/8721937921.html</url>
