@@ -1,0 +1,123 @@
+/* 卡片样式优化 */
+.card-widget {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.card-widget:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 36px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* 暗色模式适配 */
+[data-theme="dark"] .card-widget {
+  background: rgba(28, 28, 28, 0.2) !important;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* 文章卡片样式优化 */
+.recent-post-item {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+[data-theme="dark"] .recent-post-item {
+  background: rgba(28, 28, 28, 0.2) !important;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.recent-post-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 36px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* 全局变量 */
+:root {
+  --card-bg-light: rgba(255, 255, 255, 0.8);
+  --card-bg-dark: rgba(28, 28, 28, 0.8);
+  --card-border-light: rgba(255, 255, 255, 0.2);
+  --card-border-dark: rgba(255, 255, 255, 0.1);
+  --card-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  --card-hover-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+}
+
+/* 卡片基础样式 */
+.card-widget {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background: var(--card-bg-light) !important;
+  border: 1px solid var(--card-border-light);
+  box-shadow: var(--card-shadow);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card-widget:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--card-hover-shadow);
+}
+
+/* 暗色模式适配 */
+[data-theme="dark"] .card-widget {
+  background: var(--card-bg-dark) !important;
+  border: 1px solid var(--card-border-dark);
+}
+
+/* 文章卡片样式 */
+.recent-post-item {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background: var(--card-bg-light) !important;
+  border: 1px solid var(--card-border-light);
+  box-shadow: var(--card-shadow);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+[data-theme="dark"] .recent-post-item {
+  background: var(--card-bg-dark) !important;
+  border: 1px solid var(--card-border-dark);
+}
+
+.recent-post-item:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--card-hover-shadow);
+}
+
+/* 文章内容样式优化 */
+#article-container {
+  padding: 1rem 2rem;
+  line-height: 1.8;
+}
+
+#article-container h1,
+#article-container h2,
+#article-container h3,
+#article-container h4,
+#article-container h5,
+#article-container h6 {
+  margin: 1.5em 0 0.8em;
+  font-weight: 600;
+}
+
+#article-container p {
+  margin: 1em 0;
+}
+
+#article-container img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
